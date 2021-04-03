@@ -1,0 +1,53 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+.Avatar-component img{
+    width: 200px;
+    margin: 12px;
+    margin-bottom: 0;
+}
+
+.Avatar-component{
+    display: inline-block;
+    text-align: center;
+    margin: 2rem;
+    background-color: rgb(199, 240, 229);
+}
+
+.Avatar-component:hover{
+    transform: scale(1.1);
+    transition: all ease-in-out 0.3s;
+    box-shadow: 6px 6px 12px rgb(156, 250, 225);
+}
+
+.Avatar-component h1, h4{
+    margin: 6px;
+    padding: 0;
+}
+.mainPage{
+    height: 90vh;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.mainPage > h1{
+    color: white;
+    font-size: 3rem;
+}
+
+.mainPage button{
+    font-size: 1.7rem;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.mainPage button:hover{
+    background-color: red;
+    color: white;
+}
